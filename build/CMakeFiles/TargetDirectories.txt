@@ -1,0 +1,3 @@
+/home/humasoft/Escritorio/TestingData/build/CMakeFiles/rebuild_cache.dir
+/home/humasoft/Escritorio/TestingData/build/CMakeFiles/TestingData.dir
+/home/humasoft/Escritorio/TestingData/build/CMakeFiles/edit_cache.dir

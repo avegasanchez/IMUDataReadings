@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/humasoft/Escritorio/TestingData/main.cpp
+cstdio
+-
+iostream
+-
+fstream
+-
+yarp/os/Bottle.h
+-
+yarp/os/Port.h
+-
+yarp/os/Network.h
+-
+

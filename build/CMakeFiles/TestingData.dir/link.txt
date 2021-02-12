@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/TestingData.dir/main.cpp.o  -o TestingData  -Wl,-rpath,/usr/local/lib /usr/local/lib/libYARP_init.so.3.3.0 /usr/local/lib/libYARP_os.so.3.3.0 
