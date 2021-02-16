@@ -13,26 +13,26 @@ using yarp::os::Network;
 int main()
 {
     ofstream testingFile;
-    int numtime;
-    testingFile.open("ensayos.txt", ofstream::out);
-    cout << "Txt created" << endl;
+    testingFile.open("ensayos.csv", ofstream::out);
+    testingFile << "Timestamp" << "," << "Roll" << "," << "Pitch" << endl; // Headers
 
     Bottle bot;
     string bot_str;
     Port input;
     Network yarp;
+//    yarp.init();
     input.open("/in");
     cout << "Port /in opened" << endl;
 
     Network::connect("/softimu/out", "/in");
     cout << "Ports /in and /softimu/out connected" << endl;
 
-    while(input.read(bot)){
+    double start = yarp::os::Time::now();
 
+    while(input.read(bot)){
         printf("Got message: %s\n", bot.toString().c_str());
         bot_str = bot.toString().c_str();
-        testingFile << yarp::os::Time::now()*numtime << "," << bot_str << endl;
-        numtime = numtime+1;
+        testingFile << yarp::os::Time::now()-start << "," << bot_str << endl;
     }
 
     testingFile.close();

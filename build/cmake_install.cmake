@@ -1,4 +1,4 @@
-# Install script for directory: /home/humasoft/Escritorio/TestingData
+# Install script for directory: /home/humasoft/code/IMUDataReadings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/humasoft/Escritorio/TestingData/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/humasoft/code/IMUDataReadings/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

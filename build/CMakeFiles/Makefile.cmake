@@ -20,8 +20,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/cmake/YARP_os/YARP_osConfigVersion.cmake"
   "/usr/local/lib/cmake/YARP_os/YARP_osTargets-release.cmake"
   "/usr/local/lib/cmake/YARP_os/YARP_osTargets.cmake"
-  "/usr/local/lib/cmake/YCM/YCMConfig.cmake"
-  "/usr/local/lib/cmake/YCM/YCMConfigVersion.cmake"
   "/usr/local/share/yarp/cmake/YarpInstallationHelpers.cmake"
   "/usr/local/share/yarp/cmake/YarpPlugin.cmake"
   "/usr/local/share/yarp/cmake/YarpPrintFeature.cmake"

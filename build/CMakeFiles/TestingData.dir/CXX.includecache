@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/humasoft/Escritorio/TestingData/main.cpp
+/home/humasoft/code/IMUDataReadings/main.cpp
 cstdio
 -
 iostream

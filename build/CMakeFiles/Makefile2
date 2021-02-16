@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/humasoft/Escritorio/TestingData
+CMAKE_SOURCE_DIR = /home/humasoft/code/IMUDataReadings
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/humasoft/Escritorio/TestingData/build
+CMAKE_BINARY_DIR = /home/humasoft/code/IMUDataReadings/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/TestingData.dir/clean
 CMakeFiles/TestingData.dir/all:
 	$(MAKE) -f CMakeFiles/TestingData.dir/build.make CMakeFiles/TestingData.dir/depend
 	$(MAKE) -f CMakeFiles/TestingData.dir/build.make CMakeFiles/TestingData.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/humasoft/Escritorio/TestingData/build/CMakeFiles --progress-num=1,2 "Built target TestingData"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/humasoft/code/IMUDataReadings/build/CMakeFiles --progress-num=1,2 "Built target TestingData"
 .PHONY : CMakeFiles/TestingData.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestingData.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/humasoft/Escritorio/TestingData/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/humasoft/code/IMUDataReadings/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TestingData.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/humasoft/Escritorio/TestingData/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/humasoft/code/IMUDataReadings/build/CMakeFiles 0
 .PHONY : CMakeFiles/TestingData.dir/rule
 
 # Convenience name for target.
